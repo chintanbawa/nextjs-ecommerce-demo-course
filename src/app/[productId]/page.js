@@ -21,7 +21,7 @@ const ProductDetails = () => {
     }, [])
 
 
-    if (!product) return <p className='text-center'>Loading...</p>
+    if (!product) return <p className='text-center text-primary'>Loading...</p>
 
     return (
         <div className='flex flex-col gap-4 max-w-lg m-auto p-5'>
